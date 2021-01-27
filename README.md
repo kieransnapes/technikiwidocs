@@ -3,6 +3,7 @@
 **[I want to set Insurance/Rent warranty for a property](#insurance)**<br>
 
 <a name="insurance"/>
+
 ## I want to set Insurance/Rent warranty for a property
 + Go the properties page and find the property you are interested in.
 + Click the address of the property to open a page to edit the property
