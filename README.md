@@ -1,8 +1,16 @@
 # technikiwi docs
 ### Table of Contents
-**[I want to set Insurance/Rent warranty for a property](#insurance)**<br>
+**[I want to set Insurance/Rent warranty for a property](#add-insurance)**<br>
+**[I want to add arrears to an invoice](#add-arrears)**<br>
+**[I want to remove or edit a deduction from an invoice](#edit-deductions)**<br>
+**[I want to send an invoice](#send-invoice)**<br>
+**[I want to show that a tenant has paid rent this month](#tenant-paid)**<br>
+**[I want to create a new client](#new-client)**<br>
+**[I want to create a new property](#new-property)**<br>
+**[I want to create a new tentant](#new-tenant)**<br>
+**[I want to see all historic invoices for a client](#historic-invoices)**<br>
 
-<a name="insurance"/>
+<a name="add-insurance"/>
 
 ## I want to set Insurance/Rent warranty for a property
 + Go the properties page and find the property you are interested in.
@@ -12,6 +20,8 @@
 + Then set the date of the last payment. e.g. if the last payment was 2 months ago, set it to that date and it will apply the charge in 4 months time. 
 + If it is the first insurance payment for this property, set the date to be the current date minus the interval. e.g. 6 months before today.
 + Click submit to save it, the deduction will then appear on the invoice the month the insurance is due.
+
+<a name="add-arrears"/>
 
 ## I want to add arrears to an invoice
 + Go the properties page and find the property you are interested in.
@@ -23,12 +33,16 @@
 + + The arrears total only needs to be set once, but can be increased if needed.
 + To do another arrears payment, you only need to put a number in the arrears payment box and click submit.
 
+<a name="edit-deductions"/>
+
 ## I want to remove or edit a deduction from an invoice
 + Please note that Insurance and Management fees are recurring. Deleting them will not be permanent, they will come back.
 + Click invoicing and then deductions.
 + There are buttons at the top of the table to toggle recurring deductions out of the view.
 + Find the deduction that you are interested in. You can do this quickly by pressing CRTL+F on your keyboard and looking for one of the keywords.
 + You can then delete the deduction by clicking the X on the right hand side, or edit it by clicking the edit symbol in the first column.
+
+<a name="send-invoice"/>
 
 ## I want to send an invoice
 + Click invoicing on the menu then invoices. This will show you all DRAFT invoices. To see sent invoices, click the sent button in the top right corner.
@@ -40,6 +54,8 @@
 + Then scroll down to the bottom and click send invoices to send. You can send multiple invoices at the same time.
 + The invoice will then be emailed to the client as well as Lettings@peter-rolfe.com
 
+<a name="add-deduction"/>
+
 ## I want to add a one off deduction to an invoice
 + Click on invoicing then on invoicing. 
 + At the top left side are buttons to create new deductions.
@@ -49,6 +65,8 @@
 + When selecting the property you can start typing and it will search for the property for you. You can search on address or client name.
 + Click submit and the deduction will appear on the current months draft invoice.
 
+<a name="tenant-paid"/>
+
 ## I want to show that a tenant has paid rent this month.
 + Click on tenants the menu. This will list all tenants.
 + Tenants that have not been marked as paid will show as red. Those that have been marked as paid will show in green.
@@ -56,12 +74,16 @@
 + They will then show in green.
 + The tenants will show in green until the invoice for the current month has been sent, then it will switch back to red to indicate they are unpaid for the next invoice.
 
+<a name="new-client"/>
+
 ## I want to create a new client.
 + Click on clients and then click new client in the top left.
 + Fill out the details you have for the client.
 + There are some fields that are required to be filled to create the client. These include email, management fee, fee type, sort code and account number.
 + It is important that you do not put fake values in these fields as these will be sent to the client. Or sent somewhere else if the email is incorrect.
 + Click submit to create the client
+
+<a name="new-property"/>
 
 ## I want to create a new property 
 + Click properties then create new property in the top left.
@@ -71,9 +93,13 @@
 + Insurance may be applicable. If its the first time the insurance is being paid, set the dinsurance stat date to be the current date minus the interval. e.g. 6 months before today.
 + Click submit and the property will be created.
 
+<a name="new-tenant"/>
+
 ## I want to create a new tenant
 + Click tenants from the menu then new tenant in the top bar.
 + Fill out the details and submit.
+
+<a name="historic-invoices"/>
 
 ## I want to see all historic invoices for a client
 + Click invoicing then invoices by client in the popup
